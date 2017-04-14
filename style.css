@@ -1,0 +1,49 @@
+body {
+	background-color: #7B828A;
+}
+#carousel img {
+	height: 400px;
+	width: 600px;
+}
+#carousel {
+	margin: 80px auto;
+	height: 400px;
+	width: 600px;
+	border: 5px solid black;
+	overflow: hidden;
+	position: relative;
+}
+#carousel ul {
+	width: 3000px;
+	margin: 0;
+	padding: 0;
+}
+#carousel li {
+	width: 600px;
+	height: 400 px;
+	list-style-type: none;
+	float: left;
+}
+.layer {
+	position: absolute;
+	width: 100%;
+	height: 400px;
+}
+.layer .fa {
+	position: absolute;
+	top: 40%;
+	color: #FCFEFF;
+}
+.layer .fa-angle-right{
+	right: 5px;
+}
+.layer .fa-angle-left{
+	left: 5px;
+}
+.fa-angle-left:hover,
+.fa-angle-right:hover {
+	opacity: 0.4;
+ 	cursor: pointer;
+ 	color: #C3CCD4;
+	transition: 0.3s;
+}
